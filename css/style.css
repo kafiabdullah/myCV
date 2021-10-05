@@ -21,7 +21,9 @@ h5 {
   margin: 0 auto;
 }
 
-/* Header CSS Start */
+/* -------------------------------------
+            header CSS START
+---------------------------------------*/
 .profile-img {
   height: 120px;
   width: 100px;
@@ -58,4 +60,51 @@ hr {
   width: 100%;
   margin: 10px auto;
 }
-/* header CSS End */
+main{
+    margin: 0 10px;
+}
+/* -------------------------------------
+            header CSS End
+---------------------------------------*/
+/* -------------------------------------
+            personal information CSS start
+---------------------------------------*/
+
+.personal-information{}
+.content{}
+.left-div{
+    float: left;
+    width: 30%;
+}
+.left-div h3::first-letter{
+    font-size: 1.5rem;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+.right-div p::first-letter{
+    font-weight: bold;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* -------------------------------------
+            personal information CSS END
+---------------------------------------*/
+
+/* -------------------------------------
+        Work Experience Start
+---------------------------------------*/
+
+.right-div ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* -------------------------------------
+        Work Experience END
+---------------------------------------*/
