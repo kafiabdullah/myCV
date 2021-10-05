@@ -130,3 +130,27 @@ main {
 /* -------------------------------------
         Certification END
 ---------------------------------------*/
+
+#projects .right-div ul{
+    
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  #projects .right-div li::first-letter{
+      font-weight: bold;
+  }
+/* -------------------------------------
+        EDUCATION Start
+---------------------------------------*/
+  .education-right, .certification-right{
+      float: left;
+      width: 45%;
+  }
+  .education-left, .certification-left{
+      float: left;
+      width: 45%;
+  }
+
+  /* -------------------------------------
+        EDUCATION END
+---------------------------------------*/
