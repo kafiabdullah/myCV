@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eee;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #e4f9f5;
+  padding: 5px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #11999e;
+  margin: 0 auto;
+}
+
+/* Header CSS Start */
+.profile-img {
+  height: 120px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 10px;
+
+  float: left;
+}
+.header-bio {
+  margin-top: 30px;
+  padding: 0px 20px;
+  float: left;
+}
+.header-contact {
+  float: right;
+  margin-top: 30px;
+}
+.header-contact a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bold;
+}
+.header-contact a:hover {
+  text-decoration: underline;
+  color: tomato;
+}
+.div-clear {
+  clear: both;
+}
+hr {
+  border: 3px solid black;
+  border-bottom: none;
+  width: 100%;
+  margin: 10px auto;
+}
+/* header CSS End */
