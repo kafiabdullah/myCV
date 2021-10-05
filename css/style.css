@@ -14,11 +14,16 @@ body {
 }
 h1,
 h2,
-h3,
-h4,
 h5 {
   color: #11999e;
   margin: 0 auto;
+}
+h4 {
+  color: teal;
+  margin: 0 auto;
+}
+h3 {
+  color: blue;
 }
 
 /* -------------------------------------
@@ -60,8 +65,8 @@ hr {
   width: 100%;
   margin: 10px auto;
 }
-main{
-    margin: 0 10px;
+main {
+  margin: 0 10px;
 }
 /* -------------------------------------
             header CSS End
@@ -70,27 +75,29 @@ main{
             personal information CSS start
 ---------------------------------------*/
 
-.personal-information{}
-.content{}
-.left-div{
-    float: left;
-    width: 30%;
+.personal-information {
 }
-.left-div h3::first-letter{
-    font-size: 1.5rem;
+.content {
 }
-.right-div{
-    float: left;
-    width: 70%;
+.left-div {
+  float: left;
+  width: 30%;
 }
-.right-div p::first-letter{
-    font-weight: bold;
+.left-div h3::first-letter {
+  font-size: 1.5rem;
 }
-.common-hr{
-    border: 1px solid black;
-    border-bottom: none;
-    width: 100%;
-    margin: 20px auto;
+.right-div {
+  float: left;
+  width: 70%;
+}
+.right-div p::first-letter {
+  font-weight: bold;
+}
+.common-hr {
+  border: 1px solid black;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
 }
 /* -------------------------------------
             personal information CSS END
@@ -100,11 +107,26 @@ main{
         Work Experience Start
 ---------------------------------------*/
 
-.right-div ul{
-    margin-left: 20px;
-    margin-top: 10px;
+.right-div ul {
+  margin-top: 10px;
+  list-style-type: disclosure-closed;
+  list-style-position: inside;
 }
 
 /* -------------------------------------
         Work Experience END
+---------------------------------------*/
+
+/* -------------------------------------
+        Certification START
+---------------------------------------*/
+#certification{}
+#certification .right-div ul {
+    margin-top: 10px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* -------------------------------------
+        Certification END
 ---------------------------------------*/
