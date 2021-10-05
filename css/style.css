@@ -154,3 +154,37 @@ main {
   /* -------------------------------------
         EDUCATION END
 ---------------------------------------*/
+
+
+  /* -------------------------------------
+        Footer START
+---------------------------------------*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    
+    margin: 20px;
+    
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+.bottom-container a:hover{
+    background-color: #11999e;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+  /* -------------------------------------
+        Footer END
+---------------------------------------*/
