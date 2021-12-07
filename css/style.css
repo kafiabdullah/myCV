@@ -75,8 +75,7 @@ main {
             personal information CSS start
 ---------------------------------------*/
 
-.personal-information {
-}
+
 .content {
 }
 .left-div {
@@ -120,7 +119,7 @@ main {
 /* -------------------------------------
         Certification START
 ---------------------------------------*/
-#certification{}
+
 #certification .right-div ul {
     margin-top: 10px;
   list-style-type: square;
@@ -132,7 +131,7 @@ main {
 ---------------------------------------*/
 
 #projects .right-div ul{
-    
+
     list-style-type: circle;
     list-style-position: inside;
   }
@@ -142,11 +141,11 @@ main {
 /* -------------------------------------
         EDUCATION Start
 ---------------------------------------*/
-  .education-right, .certification-right{
+  .education-right, .certification-right, .experience-right{
       float: left;
       width: 45%;
   }
-  .education-left, .certification-left{
+  .education-left, .certification-left, .experience-left{
       float: left;
       width: 45%;
   }
@@ -167,9 +166,9 @@ main {
 .bottom-container a{
     text-decoration: none;
     color: white;
-    
+
     margin: 20px;
-    
+
 }
 .bottom-container p{
     color: white;
